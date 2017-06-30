@@ -1,0 +1,9 @@
+The train different networks:
+1 Run gen_data_new.py to generate the data (may take dozens of minutes to several hours).
+2 Run SL_predict_emb.py to train the network with attention along lines layers and improved feature map.
+3 Run SL_predict_new.py to train the network with multi-head attention and unimproved feature map.
+4 Run SL_predict_emb_simplified.py to train the baseline network
+5 Run rollout.py to train the rollout network
+6 Run QNET.py to train the value network (the network similar to the network in SL_predict_emb.py)
+7 the RL_train.py is for the old version SL network and dataset, we only put it here.
+
